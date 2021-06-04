@@ -15,8 +15,8 @@ syms t;
 f=sqrt(t)+t; 
 disp("integral de: ");
 disp (f);
-%inline: Las funciones en línea 
-%se pueden definir en cualquier parte de un código
+%inline: Las funciones en lÃ­nea 
+%se pueden definir en cualquier parte de un cÃ³digo
 F= inline(char(f));
 %intervalos en los que se evalua la integral
 a=1;
